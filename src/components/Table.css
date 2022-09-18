@@ -1,0 +1,33 @@
+td {
+    border-bottom: 1px solid #ccc;
+    color: #373a3c;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+th {
+    text-align: center;
+    font-weight: normal;
+    color: #373a3c;
+    border-bottom: 2px solid #5cb85c;
+
+    padding: 10px 50px;
+}
+td {
+    text-align: center;
+    color: #373a3c;
+    padding: 20px 50px;
+    transition: .3s linear;
+}
+tr:hover td {
+    color: #5cb85c!important;
+
+}

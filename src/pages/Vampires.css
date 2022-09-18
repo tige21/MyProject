@@ -52,8 +52,8 @@
     background-color: #449d44;
     border-color: #419641;
 }
+
 .input{
-    margin: 15px 0px;
     display: block;
     width: 100%;
     padding: 0.5rem 0.75rem;
@@ -65,30 +65,40 @@
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: 0.25rem;
+}
+input{
+    margin: 15px 0px;
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid black;
+    border-radius: 0.25rem;
 
 }
-.input:focus{
+input[type=text]{
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+input[type=number]{
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input:focus {
     border: 1px solid rgb(72, 199, 243);
 }
-
-
-.item{
-    padding-top: 20px;
-    width: 1140px;
-    display: flex;
-    justify-content: space-between;
-}
-.table{
-    margin-bottom: 50px;
-    width: 1140px;
-    display: flex;
-    justify-content: space-between;
-}
-.vl{
-    border-left: 1px solid green;
-    height: 100%;
-}
-hr{
-    width: 100%;
-    border-bottom: 1px solid green;
+h1{
+   padding: 30px 10px;
 }
